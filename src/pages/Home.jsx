@@ -3,7 +3,7 @@ import { Spinner, Container, Row, Col } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import MoviesCardGroup from "../components/MoviesCardGroup";
 import Button from "react-bootstrap/Button";
-import themeLogo from "../assets/themelogo.PNG";
+import themeLogo from "../themelogo.PNG";
 
 function Home() {
   const [searchTerm, setsearchTerm] = useState("");
