@@ -1,3 +1,10 @@
+![Alt text describing the screenshot](/screenshot.PNG)
+
+feature
+-collect movies api display live at webpage
+-have searchbar for movies name
+-have filter for movies genre
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
