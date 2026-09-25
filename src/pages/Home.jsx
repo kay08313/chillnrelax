@@ -3,6 +3,7 @@ import { Spinner, Container, Row, Col } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import MoviesCardGroup from "../components/MoviesCardGroup";
 import Button from "react-bootstrap/Button";
+import themelogo from "../components/themelogo.PNG";
 
 function Home() {
   const [searchTerm, setsearchTerm] = useState("");
@@ -33,7 +34,7 @@ function Home() {
       <Container className="my-container">
         <Row>
           <Col className="column">
-            <img className="themelogo" src="./themelogo.PNG" alt="themelogo" />
+            <img className="themelogo" src={themelogo} alt="themelogo" />
           </Col>
           <Col xs={6} className="column">
             <h1 className="main-title">Chill & Relax</h1>
