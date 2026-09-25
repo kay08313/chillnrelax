@@ -1,4 +1,4 @@
-![Alt text describing the screenshot](/screenshot.PNG)
+![Alt text describing the screenshot](screenshot.PNG)
 
 feature
 -collect movies api display live at webpage
